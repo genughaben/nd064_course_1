@@ -7,5 +7,6 @@ RUN go mod init helloworld
 RUN go mod tidy
 RUN go build -o helloworld
 
-CMD ["./helloworld"]
 EXPOSE 6111
+
+CMD ["./helloworld"]
